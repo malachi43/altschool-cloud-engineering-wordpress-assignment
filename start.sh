@@ -1,5 +1,14 @@
 #!/bin/bash
 
-docker compose down --volumes
+set -e 
 
-docker compose -f docker-compose.yml up
+if [[ $1 == "stop" ]];then
+ docker compose down --volumes
+ exit 0
+fi
+
+ 
+ docker compose down --volumes
+ docker compose -f docker-compose.yml up
+
+
