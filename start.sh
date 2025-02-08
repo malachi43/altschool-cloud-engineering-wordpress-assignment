@@ -9,6 +9,9 @@ fi
 
  
  docker compose down --volumes
- docker compose -f docker-compose.yml up
+ docker compose up -d
+
+
+
 
 

@@ -31,7 +31,18 @@ This script will:
 - Start the container
 - Verify that the application is running
 
-### 4. Verify the Running Container
+### 4. Accessing Wordpress Dashboard
+- visit the `http://localhost:8080`
+- login with the following credentials if promoted:
+- useraname: malachi
+- password: wordpress_malachi_12
+- login
+- after a successful login, you will be presented with your wordpress dashboard
+- customize your site as you deem fit
+- visit the url: `http://localhost:8080` to see your new customize site is hosted with the recent changes you made
+- Holla!!! you have just hosted your first wordpress site.
+
+### 5. Verify the Running Container
 After executing the script, confirm the container is running with:
 ```sh
 docker ps
